@@ -84,7 +84,7 @@ section {
     margin-bottom: 30px;
     font-weight: bold;
 }
-section ul {
+section ul li{
     list-style-type: none;
     font-weight: bold;
 }
