@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina Mecânica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- <h1>Mecânica JKAR</h1> -->
+        <picture><img src="imagens/image (21).png" alt="imagem de carro"></picture>
+        <p>Endereço: R. Quinzinho de Moraes, 664 - Aparecidinha, Sorocaba - SP, 18087-250, Brasil</p>
+        <p>Telefone: (15) 1234-5678 | E-mail: jarbasbispodeoliveira@gmail.com</p>
+        <p>Horário de Funcionamento: Seg-Sex, 8h às 18h</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+            <li><a href="#precos">Preços e Promoções</a></li>
+            <li><a href="#testemunhos">Clientes e Testemunhos</a></li>
+            <li><a href="#contato">Contato e Agendamento</a></li>
+            <li><a href="#blog">Blog e Dicas</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="servicos" style="text-align: center;">
+            <h2 style="text-align: center;">Serviços Oferecidos</h2>
+            <ul>
+                <li>Manutenção Preventiva</li>
+                <li>Troca de óleo</li>
+                <li>Verificação de freios</li>
+                <li>Alinhamento e balanceamento</li>
+                <li>Reparos Mecânicos
+                    <ul>
+                        <li>Motor</li>
+                        <li>Transmissão</li>
+                        <li>Suspensão</li>
+                    </ul>
+                </li>
+                <li>Serviços Elétricos
+                    <ul>
+                        <li>Bateria</li>
+                        <li>Sistema de iluminação</li>
+                        <li>Diagnóstico eletrônico</li>
+                    </ul>
+                </li>
+                <li>Serviços de Estética
+                    <ul>
+                        <li>Pintura</li>
+                        <li>Polimento</li>
+                        <li>Higienização interna</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="equipe">
+            <h2>Equipe</h2>
+            <div>
+                <h3>Mecânicos</h3>
+                <p>Nome: João Silva - Especialização: Motores</p>
+            </div>
+            <div>
+                <h3>Eletricistas</h3>
+                <p>Nome: Ana Oliveira - Especialização: Diagnósticos eletrônicos</p>
+            </div>
+            <div>
+                <h3>Atendentes</h3>
+                <p>Nome: Pedro Souza - Função: Atendimento ao cliente</p>
+            </div>
+        </section>
+
+        <section id="precos">
+            <h2>Preços e Promoções</h2>
+            <h3>Tabela de Preços</h3>
+            <p>Troca de óleo: R$100</p>
+            <p>Alinhamento e balanceamento: R$150</p>
+
+            <h3>Promoções Atuais</h3>
+            <p>Pacote de revisão completa com 10% de desconto!</p>
+        </section>
+
+        <section id="testemunhos">
+            <h2>Clientes e Testemunhos</h2>
+            <blockquote>
+                <p>"Serviço rápido e eficiente!" - Carlos Almeida</p>
+            </blockquote>
+            <blockquote>
+                <p>"Equipe muito atenciosa e profissional." - Maria Santos</p>
+            </blockquote>
+        </section>
+
+        <section id="contato">
+            <h2>Contato e Agendamento</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <a href="jarbasbispodeoliveira@gmail.com">Agende seu atendimento por email aqui!</a>
+        </section>
+
+        <section id="blog">
+            <h2>Blog e Dicas</h2>
+            <article>
+                <h3>Dicas de cuidados com o carro</h3>
+                <p>Confira como manter seu carro em excelente estado...</p>
+            </article>
+        </section>
+    </main>
+
+    <div>
+        <a href="https://api.whatsapp.com/send?phone=5511966087062&text=Ol%C3%A1%2C%20vim%20pelo%20site%20tenho%20interesse%20em%20conhecer%20o%20servi%C3%A7o%20" target="_blank">
+            <svg class="whatsapp" xmlns="imagens/logo auto" width="65" height="65" viewBox="0 0 39 39">
+                <path fill="#00E676"
+                    d="M10.7 32.8l.6.3c2.5 1.5 5.3 2.2 8.1 2.2 8.8 0 16-7.2 16-16 0-4.2-1.7-8.3-4.7-11.3s-7-4.7-11.3-4.7c-8.8 0-16 7.2-15.9 16.1 0 3 .9 5.9 2.4 8.4l.4.6-1.6 5.9 6-1.5z">
+                </path>
+                <path fill="#FFF"
+                    d="M32.4 6.4C29 2.9 24.3 1 19.5 1 9.3 1 1.1 9.3 1.2 19.4c0 3.2.9 6.3 2.4 9.1L1 38l9.7-2.5c2.7 1.5 5.7 2.2 8.7 2.2 10.1 0 18.3-8.3 18.3-18.4 0-4.9-1.9-9.5-5.3-12.9zM19.5 34.6c-2.7 0-5.4-.7-7.7-2.1l-.6-.3-5.8 1.5L6.9 28l-.4-.6c-4.4-7.1-2.3-16.5 4.9-20.9s16.5-2.3 20.9 4.9 2.3 16.5-4.9 20.9c-2.3 1.5-5.1 2.3-7.9 2.3zm8.8-11.1l-1.1-.5s-1.6-.7-2.6-1.2c-.1 0-.2-.1-.3-.1-.3 0-.5.1-.7.2 0 0-.1.1-1.5 1.7-.1.2-.3.3-.5.3h-.1c-.1 0-.3-.1-.4-.2l-.5-.2c-1.1-.5-2.1-1.1-2.9-1.9-.2-.2-.5-.4-.7-.6-.7-.7-1.4-1.5-1.9-2.4l-.1-.2c-.1-.1-.1-.2-.2-.4 0-.2 0-.4.1-.5 0 0 .4-.5.7-.8.2-.2.3-.5.5-.7.2-.3.3-.7.2-1-.1-.5-1.3-3.2-1.6-3.8-.2-.3-.4-.4-.7-.5h-1.1c-.2 0-.4.1-.6.1l-.1.1c-.2.1-.4.3-.6.4-.2.2-.3.4-.5.6-.7.9-1.1 2-1.1 3.1 0 .8.2 1.6.5 2.3l.1.3c.9 1.9 2.1 3.6 3.7 5.1l.4.4c.3.3.6.5.8.8 2.1 1.8 4.5 3.1 7.2 3.8.3.1.7.1 1 .2h1c.5 0 1.1-.2 1.5-.4.3-.2.5-.2.7-.4l.2-.2c.2-.2.4-.3.6-.5s.4-.4.5-.6c.2-.4.3-.9.4-1.4v-.7s-.1-.1-.3-.2z">
+                </path>
+            </svg>
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy;<em> 2025 Valmir Santos. Todos os direitos reservados.</em></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
