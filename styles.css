@@ -82,9 +82,11 @@ main {
 
 section {
     margin-bottom: 30px;
+    font-weight: bold;
 }
 section ul {
     list-style-type: none;
+    font-weight: bold;
 }
 
 section h2 {
