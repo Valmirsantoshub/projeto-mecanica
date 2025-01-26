@@ -22,7 +22,6 @@ body {
     padding: 0;
     background-color: #f4f4f9;
     color: var(--color0);
-    /* overflow-x: hidden; */
 }
 
 header {
@@ -36,13 +35,12 @@ header h1 {
     margin: 0;
     font-size: 2.5em;
 }
-
 picture img {
     width: 100%;
     height: 500px;
-    object-fit: cover;
+    /* object-fit: cover;
     object-position: center;
-    
+    */
 }
 
 nav {
@@ -96,14 +94,6 @@ section h2 {
     border-bottom: 2px solid #ccc;
     padding-bottom: 5px;
     margin-bottom: 15px;
-}
-
-#foto {
-    margin: auto;
-    text-align: center;
-    max-width: 520px;
-    /* width: 100%; */
-    height: auto;
 }
 
 footer {
@@ -189,7 +179,6 @@ article h3 {
         font-size: 2em;
         
     }
-   
 
     nav ul li {
         display: block;
@@ -208,14 +197,12 @@ article h3 {
         bottom: 10%;
         right: 5%;
     }
-    
 }
 
 @media (max-width: 480px) {
     header h1 {
         font-size: 1.5em;
     }
-    
 
     nav ul li {
         margin: 5px 0;
