@@ -176,8 +176,8 @@ article h3 {
 
 .whatsapp {
     position: fixed;
-    bottom: 3%;
-    right: 1%;
+    bottom: 2%;
+    right: 0%;
     padding: 10px;
     z-index: 10000000;
     
@@ -186,9 +186,7 @@ article h3 {
     transform: scale(1.2);
 }
 
-.whatsapp:hover {
-    transform: scale(1.2);
-}
+
 
 /* Responsividade */
 @media (max-width: 768px) {
