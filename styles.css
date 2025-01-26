@@ -96,6 +96,11 @@ section h2 {
     margin-bottom: 15px;
 }
 
+#foto{
+ margin: auto;
+ text-align: center;
+}
+
 footer {
     background: var(--color0);
     color: #fff;
