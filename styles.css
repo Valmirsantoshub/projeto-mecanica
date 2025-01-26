@@ -176,7 +176,7 @@ article h3 {
 
 .whatsapp {
     position: fixed;
-    bottom: 1%;
+    bottom: -1%;
     right: 0.5%;
      padding: 10px;
     z-index: 10000000; 
