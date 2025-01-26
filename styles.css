@@ -208,7 +208,7 @@ article h3 {
 
     .whatsapp {
         bottom: 10%;
-        right: 5%;
+        right: 10%;
     }
 }
 
@@ -227,6 +227,6 @@ article h3 {
 
     .whatsapp {
         bottom: 15%;
-        right: 10%;
+        right: -10%;
     }
 }
