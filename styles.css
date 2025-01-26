@@ -22,8 +22,6 @@ body {
     padding: 0;
     background-color: #f4f4f9;
     color: var(--color0);
-    overflow-x: hidden;
-   
 }
 
 header {
@@ -101,8 +99,7 @@ section h2 {
     margin: auto;
     text-align: center;
     max-width: 520px;
-    display: block;
-    
+   
 }
 a{
     text-align: center;
@@ -176,12 +173,10 @@ article h3 {
 
 .whatsapp {
     position: fixed;
-    bottom: -1%;
+    bottom: 1%;
     right: 0.5%;
-     padding: 10px;
-    z-index: 10000000; 
- 
-    
+    padding: 10px;
+    z-index: 10000000;
 }
 
 .whatsapp:hover {
@@ -209,7 +204,7 @@ article h3 {
     }
 
     .whatsapp {
-        bottom: 15%;
+        bottom: 10%;
         right: 5%;
     }
 }
@@ -227,7 +222,7 @@ article h3 {
         font-size: 0.9em;
     }
 
-    .whatsapp { 
+    .whatsapp {
         bottom: 15%;
         right: 10%;
     }
