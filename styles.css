@@ -178,8 +178,8 @@ article h3 {
     position: fixed;
     bottom: 1%;
     right: 0.5%;
-    padding: 10px;
-    z-index: 10000000;
+     padding: 10px;
+    z-index: 10000000; 
  
     
 }
@@ -209,7 +209,7 @@ article h3 {
     }
 
     .whatsapp {
-        bottom: 10%;
+        bottom: -15%;
         right: 5%;
     }
 }
@@ -227,8 +227,8 @@ article h3 {
         font-size: 0.9em;
     }
 
-    .whatsapp {
-        bottom: 10%;
-        right: 5%
+    .whatsapp { 
+        bottom: -10%;
+        right: 5%;
     }
 }
