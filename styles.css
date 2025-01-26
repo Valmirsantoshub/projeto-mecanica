@@ -95,6 +95,18 @@ section h2 {
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
+picture img{
+    margin: auto;
+    text-align: center;
+    max-width: 520px;
+    display: block;
+    overflow-x: hidden;
+   
+}
+a{
+    text-align: center;
+    display: block;
+}
 
 footer {
     background: var(--color0);
