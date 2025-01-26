@@ -177,7 +177,7 @@ article h3 {
 .whatsapp {
     position: fixed;
     bottom: 2%;
-    right: 0%;
+    right: 2%;
     padding: 10px;
     z-index: 10000000;
     
@@ -208,10 +208,10 @@ article h3 {
         width: 90%;
     }
 
-    .whatsapp {
+    /* .whatsapp {
         bottom: 15%;
         right: 10%;
-    }
+    } */
 }
 
 @media (max-width: 480px) {
@@ -227,8 +227,8 @@ article h3 {
         font-size: 0.9em;
     }
 
-    .whatsapp {
+    /* .whatsapp {
         bottom: 15%;
         right: 10%;
-    }
+    } */
 }
