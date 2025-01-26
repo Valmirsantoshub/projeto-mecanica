@@ -176,10 +176,14 @@ article h3 {
 
 .whatsapp {
     position: fixed;
-    bottom: -1%;
-    right: 0.5%;
+    bottom: 3%;
+    right: 1%;
     padding: 10px;
     z-index: 10000000;
+    
+}
+.whatsapp:hover{
+    transform: scale(1.2);
 }
 
 .whatsapp:hover {
