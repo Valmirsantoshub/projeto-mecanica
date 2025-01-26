@@ -22,6 +22,8 @@ body {
     padding: 0;
     background-color: #f4f4f9;
     color: var(--color0);
+    overflow-x: hidden;
+   
 }
 
 header {
@@ -100,8 +102,7 @@ picture img{
     text-align: center;
     max-width: 520px;
     display: block;
-    overflow-x: hidden;
-   
+    
 }
 a{
     text-align: center;
